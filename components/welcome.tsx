@@ -19,13 +19,13 @@ export function Welcome({ value, options, onChange, loading, error, onRefresh, o
   return <main className="shell welcome">
     <header className="top"><div className="brand">
       <span className="mark" aria-hidden>忍</span>
-      <div><h1>Openjutsu</h1><p>Open weights. Your video. Your GPU.</p></div>
+      <div><h1>FrameSwap</h1><p>by Frame AI · AI Video Transformation</p></div>
     </div></header>
 
     <section className="welcome-intro">
       <p className="eyebrow">BEFORE YOUR FIRST SWAP</p>
-      <h2>Welcome to Openjutsu.</h2>
-      <p>Give your video a new cast, change an object or rebuild the scene. Start by choosing the model that helps Openjutsu understand what it sees.</p>
+      <h2>Welcome to FrameSwap.</h2>
+      <p>Give your video a new cast, change an object or rebuild the scene. Start by choosing the model that helps FrameSwap understand what it sees.</p>
       <ol className="welcome-flow">
         <li><strong>See &amp; describe</strong><span>A vision-language model reads your photos and video frames, identifies people and writes prompts.</span></li>
         <li><strong>Track the edit</strong><span>SAM follows the people or things you want to change.</span></li>
@@ -79,7 +79,7 @@ export function Welcome({ value, options, onChange, loading, error, onRefresh, o
     <footer className="welcome-actions">
       <div><strong>Your choice stays in this browser.</strong><p className="hint">Reopen Welcome &amp; models any time to change it.</p></div>
       <div className="row"><button className="secondary" onClick={onContinue}>Set up later</button>
-        <button className="primary" disabled={loading || !installed} onClick={onContinue}>Continue to Openjutsu →</button></div>
+        <button className="primary" disabled={loading || !installed} onClick={onContinue}>Continue to FrameSwap →</button></div>
     </footer>
   </main>;
 }

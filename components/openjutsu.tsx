@@ -695,7 +695,7 @@ export function Openjutsu() {
     setPost(next);
   }
 
-  if (!restored) return <main className="shell"><p className="hint" role="status">Loading Openjutsu…</p></main>;
+  if (!restored) return <main className="shell"><p className="hint" role="status">Loading FrameSwap…</p></main>;
   if (welcome && !run) return <Welcome value={describer} options={files.textEncoders} onChange={setDescriber}
     loading={modelsLoading} error={modelsError} onRefresh={refreshModels} onContinue={finishWelcome} />;
 
@@ -705,7 +705,7 @@ export function Openjutsu() {
         <div className="brand">
           <span className="mark" aria-hidden>忍</span>
           <div>
-            <h1>Openjutsu</h1>
+            <h1>FrameSwap</h1>
             <p>Swap the people or things in any video. Open weights, on your own GPU.</p>
           </div>
         </div>
